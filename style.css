@@ -30,22 +30,22 @@ dd {
   flex-direction: column;
 }
 @media screen and (min-width: 650px) {
-  body {
+  .body {
     background-image: url(assets/tablet_protrait.png);
   }
 }
 @media screen and (min-width: 1024px) and (orientation: landscape) {
-  body {
+  .body {
     background-image: url(assets/tablet_1024.png);
   }
 }
 @media screen and (min-width: 1920px) {
-  body {
+  .body {
     background-image: url(assets/Desktop_fullHD.png);
   }
 }
 @media screen and (min-width: 2000px) {
-  body {
+  .body {
     background-image: url(assets/desktop-4k.png);
   }
 }
